@@ -1,0 +1,38 @@
+
+div {
+  background-color: rgb(159, 184, 196);
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin:auto;
+    border-radius: 5px;
+    max-width: 50%;
+}
+
+a {
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color:whitesmoke;
+  border-radius: 5px;
+  padding: 10px; 
+}
+
+button {
+  padding: 10px;
+    background-color: rgb(54, 158, 54);
+    color: white;
+    border-radius: 5px;
+  }
+  
+  /* visited link */
+  button:visited {
+    color: rgb(23, 0, 128);
+  }
+  
+  /* selected link */
+  button:active {
+    color: yellow;
+  }
